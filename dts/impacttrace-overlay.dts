@@ -9,10 +9,9 @@
 		__overlay__ {
 			#address-cells = <1>;
 			#size-cells = <0>;
-			status = "okay";
 
 			rtc@68 {
-				compatible = "impacttrace,ds3231";
+				compatible = "impacttrace,it-ds3231";
 				reg = <0x68>;
 			};
 		};
